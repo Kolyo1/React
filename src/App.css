@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Handlee&family=Indie+Flower&family=Kalam:wght@300;400;700&family=Londrina+Outline&family=Rubik+Scribble&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Londrina+Sketch&display=swap');
+/* THE GRID THAT DIVIDES THE WEBSITE ON NAV ON THE LEFT AND CONTENT SECTION ON THE RIGHT */
+.grid-container              {display: grid; grid-template-columns: 13% 86%; grid-gap: 1%;margin: 0; background-color: #0a111f; scroll-behavior: smooth;
+                              height: fit-content; width: 100%;}
+
+body                         {display: block;place-items: normal;}
+header                       {height: 100vh;}
+h1, h2, h3, h4, p            {color: white;}
+h1                           {font-size: 5em; font-family: "Cabin Sketch", sans-serif;}
+h2                           {font-size: 3.5em; font-family: "Rubik Scribble", system-ui;}
+h3                           {font-size: 2em; font-family: "Amatic SC", sans-serif;}
+h4                           {font-size: 1.5em; font-family: "Comic Neue", cursive;}
+#line                        {position: relative;}
+.line                        {width: 100%;}
+.projects-container         {
+                            background-color:#0a111f; z-index: 2;
+                            position: absolute;
+                            width: calc(100% - 100px);
+                            height: 100%;
+                            left: 100px;}

@@ -1,0 +1,39 @@
+/*   -------------------------
+    | PROJECT SECTION STYLING |
+     -------------------------
+*/
+.projects                    {background-color: #0a111f; margin-top: 10%; display: flex;
+                              flex-direction: column; margin-top: 5%; padding: 2em 0;}
+
+/* Initially hide projects + animation ease-out when not in viewport */
+.projects .project           {opacity: 0;transform: translateY(20px);
+                              transition: opacity 1s ease-out, transform 1s ease-out;}
+
+/* Make projects visible when in viewport */
+.projects .project.visible   {opacity: 1; transform: translateY(0);}
+
+/* project image */
+.cover                       {width: 100%;}
+
+/* project description */
+.description                 {width: 60%;text-align: left;display: flex;flex-direction: column;}
+.description h3              {margin-top: 0;text-align: left;}
+
+/* project details below the title of the project */
+.description-details         {display: flex;}
+
+/* project image outer div */
+.picture                     {width: 60%;}
+
+/* the vertical line in the project details */
+.vertical                    {width: 1px; height: 100%; background-color: white; opacity: .6;}
+
+/* the line's outer div */
+.lineCont                    {width: 10%; display: flex;justify-content: center; align-items: center;}
+
+/* project details outer div */
+.textCont                    {width: 90%;text-align: left;}
+.textCont h4                 {margin-top: 0;}
+
+/* bolds the last <p> element of the details */
+.textCont>p:last-child       {font-weight: bold;}
